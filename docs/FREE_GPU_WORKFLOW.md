@@ -47,6 +47,11 @@ Do not commit Zindi files to GitHub. On Kaggle, create a private dataset with:
 - `Test.csv`
 - `SampleSubmission.csv`
 
+Current private Kaggle dataset:
+
+- Dataset: `mazikomphepo/waxal-asr-zindi-csvs`
+- Notebook input path: `/kaggle/input/waxal-asr-zindi-csvs`
+
 On Colab, upload the CSVs manually or mount Google Drive.
 
 ## First Baseline Sequence
