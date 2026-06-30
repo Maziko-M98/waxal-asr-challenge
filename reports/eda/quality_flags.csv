@@ -1,0 +1,10 @@
+check,value,severity
+duplicate_train_ids,0,high
+duplicate_test_ids,0,high
+train_test_id_overlap,0,high
+test_sample_id_symmetric_difference,0,high
+empty_train_transcriptions,0,high
+normalized_empty_train_transcriptions,1,high
+repeated_transcriptions,12,medium
+transcriptions_with_digits,176,medium
+transcriptions_with_quotes,151,medium

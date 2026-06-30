@@ -1,0 +1,4 @@
+language,train_vocab,validation_vocab,validation_token_count,validation_unseen_vocab,validation_unseen_token_count,validation_unseen_token_rate
+lin,16880,4688,50808,1432,1542,0.030349551251771374
+lug,16524,4425,21305,1128,1210,0.05679417977000704
+sna,36868,9373,40114,2732,2852,0.07109737248840804

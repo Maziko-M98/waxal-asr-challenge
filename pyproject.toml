@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "waxal-asr-challenge"
+version = "0.1.0"
+description = "Starter kit for the Zindi Google Waxal ASR Challenge"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]

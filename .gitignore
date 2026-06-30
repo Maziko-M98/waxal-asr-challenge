@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local data and model artifacts
+data/zindi/*
+!data/zindi/.gitkeep
+models/
+runs/
+.cache/
+
+# Generated predictions can be shared selectively, not by default.
+submissions/*.csv
+submissions/raw/*.csv
+
+# Large notebook/runtime side effects
+.ipynb_checkpoints/
+wandb/
+lightning_logs/
+tensorboard/

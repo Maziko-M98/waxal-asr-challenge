@@ -1,0 +1,7 @@
+language,original_split,rows
+lin,train,14400
+lin,validation,1844
+lug,train,5455
+lug,validation,664
+sna,train,14109
+sna,validation,1727

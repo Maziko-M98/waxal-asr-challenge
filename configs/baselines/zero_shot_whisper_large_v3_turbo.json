@@ -1,0 +1,16 @@
+{
+  "experiment_name": "baseline_001_zero_shot_whisper_large_v3_turbo",
+  "stage": "baseline_submission",
+  "hypothesis": "A zero-shot Whisper large-v3-turbo run will validate the end-to-end Zindi submission pipeline and provide a non-fine-tuned reference point.",
+  "model": "openai/whisper-large-v3-turbo",
+  "adapter": null,
+  "languages": ["lin", "sna", "lug"],
+  "split": "test",
+  "test_csv": "data/zindi/Test.csv",
+  "sample_submission": "data/zindi/SampleSubmission.csv",
+  "output": "submissions/baseline_001_zero_shot_whisper_large_v3_turbo.csv",
+  "batch_size": 4,
+  "num_beams": 1,
+  "max_new_tokens": 225,
+  "notes": "Plumbing baseline only. Do not infer model quality from this without validation analysis."
+}
