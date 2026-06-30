@@ -122,5 +122,7 @@ The downloaded `Train.csv` has 38,199 labelled examples: 33,964 train and
 ## Professional Workflow
 
 - Read [docs/EXPERIMENT_PROTOCOL.md](docs/EXPERIMENT_PROTOCOL.md) before running model experiments.
+- Use [docs/FREE_GPU_WORKFLOW.md](docs/FREE_GPU_WORKFLOW.md) for Colab/Kaggle execution.
+- Notebook launchers live in [notebooks/](notebooks/).
 - Track every run in [experiments/experiment_log.csv](experiments/experiment_log.csv).
 - Commit code, configs, and reports. Keep downloaded competition files and model artifacts local unless there is a deliberate release decision.
